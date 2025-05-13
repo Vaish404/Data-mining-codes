@@ -1,0 +1,6 @@
+sum_of_digits <- function(num) {
+  digits <- as.numeric(unlist(strsplit(as.character(num), "")))
+  sum(digits)
+}
+
+sum_of_digits(1234)  # Output: 10
