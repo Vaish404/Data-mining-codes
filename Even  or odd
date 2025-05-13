@@ -1,0 +1,5 @@
+check_even_odd <- function(num) {
+  if (num %% 2 == 0) "Even" else "Odd"
+}
+
+check_even_odd(7)
