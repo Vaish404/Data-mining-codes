@@ -1,0 +1,10 @@
+fibonacci <- function(n) {
+  fib <- numeric(n)
+  fib[1:2] <- c(0, 1)
+  for (i in 3:n) {
+    fib[i] <- fib[i-1] + fib[i-2]
+  }
+  fib
+}
+
+fibonacci(10)
